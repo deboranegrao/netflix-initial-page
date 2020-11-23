@@ -23,7 +23,7 @@ header .container{
 
 header .logo{
     margin: 10px;
-    height: 2.5rem;
+    height: 3rem;
     
 }
 
@@ -70,6 +70,11 @@ header nav a:hover{
     font-size: 12px;
     cursor: pointer;
     transition: .4s ease all;
+}
+
+.botao a{
+    text-decoration: none;
+    color: inherit; 
 }
 
 .botao:hover{
