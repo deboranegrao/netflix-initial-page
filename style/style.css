@@ -11,27 +11,26 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #FFF;
 }
 
 header .container{
-    border: solid green 1px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 
 header .logo{
     margin: 10px;
-    height: 3rem;
+    height: 2.5rem;
     
 }
 
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-left: 25px;
 }
 
 header nav a:hover{
@@ -43,7 +42,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 20px;
     background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url(../img/the-crown.jpg);
-    height: 400px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -57,7 +56,7 @@ header nav a:hover{
 }
 
 .filme-principal .titulo{
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -83,7 +82,7 @@ header nav a:hover{
 }
 
 .container{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .filme-principal .container{
@@ -93,5 +92,9 @@ header nav a:hover{
 .box-filme{
     height: 100%;
     width: 100%;
-    display: flex;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
